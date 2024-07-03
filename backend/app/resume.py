@@ -1,8 +1,8 @@
 import spacy
 import sys, fitz
 
-model_path = r"C:\Resume_parsing_spacyNER\NER_MODEL\resume_parser_model.spacy"
-nlp = spacy.load(model_path)
+model_path = r"C:\Users\thapa\OneDrive\Desktop\project dump\major_project-master v2.1\backend\ResumeParser\model\output\model-best"
+rnlp = spacy.load(model_path)
 
 def extract_text_from_pdf(pdf_path):
     text = ""

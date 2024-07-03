@@ -1,8 +1,8 @@
 import spacy
 import sys, fitz
 
-model_path = r"C:\JdModel\output\model-best"
-nlp = spacy.load(model_path)
+model_path = r"C:\Users\thapa\OneDrive\Desktop\project dump\major_project-master v2.1\backend\JdModel\output\model-best"
+jdnlp = spacy.load(model_path)
 
 def extract_jdtext_from_pdf(pdf_path):
     text = ""

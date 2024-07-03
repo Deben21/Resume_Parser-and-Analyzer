@@ -1,0 +1,4 @@
+Django==3.2.24
+djangorestframework==3.14.0
+fitz==0.0.1.dev2
+spacy==3.7.2

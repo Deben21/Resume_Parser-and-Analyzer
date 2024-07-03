@@ -17,4 +17,6 @@ urlpatterns = [
     path('jdparser/',csrf_exempt(views.parse_jd)),
     path('get_parsed_data/',csrf_exempt(views.get_parsed_data)),
     path('get_parsedjd_data/',csrf_exempt(views.get_parsedjd_data)),
+    path('get_ranked_resume/', csrf_exempt(views.get_ranked_resume)), 
+
 ]
